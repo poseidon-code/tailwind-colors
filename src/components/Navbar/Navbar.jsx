@@ -15,7 +15,7 @@ const Navbar = (props) => {
                 <a href='https://www.tailwindcss.com/docs' target='_blank' rel='noopenner noreferrer' className='btn'>
                     <Logo />
                 </a>
-                <a href='https://www.github.com/poseidon-code' target='_blank' rel='noopenner noreferrer' className='btn'>
+                <a href='https://www.github.com/poseidon-code/tailwind-colors' target='_blank' rel='noopenner noreferrer' className='btn'>
                     <Github color='#1E293B' />
                 </a>
             </div>
