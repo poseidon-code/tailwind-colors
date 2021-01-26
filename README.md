@@ -6,7 +6,7 @@
 Color pallette of **TailwindCSS v2.0** made with ReactJS. Copy color codes as HEX codes and RGB codes.\
 Check out the live build here : [Tailwind Colors](https://tailwindcolors.netlify.app)
 
-If you are using `tailwindcss` package in your project then read about configuring colors from [here](https://tailwindcss.com/docs/customizing-colors#curating-colors).\
+If you are using `tailwindcss` package in your project then read about configuring colors from [here](https://tailwindcss.com/docs/customizing-colors#curating-colors).
 
 Install and use **[TailwindCSS v2.0](https://tailwindcss.com/docs)**
 
