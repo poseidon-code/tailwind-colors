@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useRef, useState } from 'react';
 
 import ColorPicker from './components/ColorPicker/ColorPicker';
 import Navbar from './components/Navbar/Navbar';
@@ -7,15 +7,15 @@ import Colors from './Colors';
 const App = () => {
     const [hex, setHex] = useState(true);
     const [iscopied, setIscopied] = useState(false);
+    const toast = useRef();
 
     const toggleColorCode = () => { setHex((p) => !p) };
 
-    const copied = () => { setIscopied(true) }
-
-    useEffect(() => {
-        const toast = setTimeout(()=>{setIscopied(false)}, 3000);
-        return () => { clearTimeout(toast) }
-    }, [iscopied])
+    const copied = () => {
+        clearTimeout(toast.current);
+        setIscopied(true);
+        toast.current = setTimeout(()=>{setIscopied(false)}, 3000);
+    };
 
     return (
         <>
