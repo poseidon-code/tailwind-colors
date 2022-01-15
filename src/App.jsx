@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import ColorPicker from './components/ColorPicker/ColorPicker';
 import Navbar from './components/Navbar/Navbar';
@@ -8,16 +8,14 @@ const App = () => {
     const [hex, setHex] = useState(true);
     const [iscopied, setIscopied] = useState(false);
 
-    const toggleColorCode = () => {
-        setHex((p) => !p);
-    };
+    const toggleColorCode = () => { setHex((p) => !p) };
 
-    const copied = async () => {
-        setIscopied(true);
-        setTimeout(() => {
-            setIscopied(false);
-        }, 1000);
-    };
+    const copied = () => { setIscopied(true) }
+
+    useEffect(() => {
+        const toast = setTimeout(()=>{setIscopied(false)}, 3000);
+        return () => { clearTimeout(toast) }
+    }, [iscopied])
 
     return (
         <>
