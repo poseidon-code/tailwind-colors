@@ -3,23 +3,23 @@ const TailwindColors = [
         base: 'gray',
         variants: [
             {
-                variant: 'blueGray',
+                variant: 'slate',
                 shades: ['#F8FAFC', '#F1F5F9', '#E2E8F0', '#CBD5E1', '#94A3B8', '#64748B', '#475569', '#334155', '#1E293B', '#0F172A'],
             },
             {
-                variant: 'coolGray',
+                variant: 'gray',
                 shades: ['#F9FAFB', '#F3F4F6', '#E5E7EB', '#D1D5DB', '#9CA3AF', '#6B7280', '#4B5563', '#374151', '#1F2937', '#111827'],
             },
             {
-                variant: 'gray',
+                variant: 'zinc',
                 shades: ['#FAFAFA', '#F4F4F5', '#E4E4E7', '#D4D4D8', '#A1A1AA', '#71717A', '#52525B', '#3F3F46', '#27272A', '#18181B'],
             },
             {
-                variant: 'trueGray',
+                variant: 'neutral',
                 shades: ['#FAFAFA', '#F5F5F5', '#E5E5E5', '#D4D4D4', '#A3A3A3', '#737373', '#525252', '#404040', '#262626', '#171717'],
             },
             {
-                variant: 'warmGray',
+                variant: 'stone',
                 shades: ['#FAFAF9', '#F5F5F4', '#E7E5E4', '#D6D3D1', '#A8A29E', '#78716C', '#57534E', '#44403C', '#292524', '#1C1917'],
             },
         ],
@@ -79,7 +79,7 @@ const TailwindColors = [
                 shades: ['#ECFEFF', '#CFFAFE', '#A5F3FC', '#67E8F9', '#22D3EE', '#06B6D4', '#0891B2', '#0E7490', '#155E75', '#164E63'],
             },
             {
-                variant: 'lightBlue',
+                variant: 'sky',
                 shades: ['#F0F9FF', '#E0F2FE', '#BAE6FD', '#7DD3FC', '#38BDF8', '#0EA5E9', '#0284C7', '#0369A1', '#075985', '#0C4A6E'],
             },
             {
