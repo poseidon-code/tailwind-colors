@@ -1,5 +1,5 @@
 import { BrandLogo, Logo, Github, RGB, Hashtag } from '../Icons/Icons';
-import './Navbar.css';
+import './Navbar.scss';
 
 const Navbar = (props) => {
     return (

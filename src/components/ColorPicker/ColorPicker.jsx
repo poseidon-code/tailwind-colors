@@ -1,4 +1,4 @@
-import './ColorPicker.css';
+import './ColorPicker.scss';
 import Clipboard from 'clipboard';
 
 const ColorPicker = (props) => {
