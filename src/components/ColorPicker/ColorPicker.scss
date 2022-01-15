@@ -16,6 +16,8 @@
         cursor: pointer;
         display: grid;
         place-items: center;
+        user-select: none;
+        font-family: var(--ff-mono);
 
         &:hover {
             transform: scale(1.2);

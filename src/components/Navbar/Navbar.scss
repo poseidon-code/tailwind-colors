@@ -16,8 +16,26 @@ nav {
         height: 3rem;
     }
 
-    h1 {
-        font-size: 2rem;
+    span {
+        display: inline-flex;
+
+        h1 {
+            font-size: 2rem;
+            font-family: var(--ff-sans);
+            font-weight: 600;
+
+            &:last-of-type {
+                font-weight: 700;
+                background: linear-gradient(
+                    126deg,
+                    rgba(118, 118, 212, 1) 10%,
+                    rgba(156, 94, 193, 1) 43%,
+                    rgba(226, 123, 164, 1) 100%
+                );
+                background-clip: text;
+                color: transparent;
+            }
+        }
     }
 }
 
@@ -51,8 +69,10 @@ nav {
             min-width: 3rem;
             height: 2rem;
         }
-        h1 {
-            font-size: 1.4rem;
+        span {
+            h1 {
+                font-size: 1.4rem;
+            }
         }
     }
 

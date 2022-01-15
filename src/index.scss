@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Share+Tech+Mono&display=swap');
 
 :root {
     font-size: 16px;
@@ -6,15 +6,17 @@
     --accent: #e2e8f0;
     --text: #1e293b;
     --time: 250ms;
+    --ff-mono: 'Share Tech Mono', monospace;
+    --ff-sans: 'Poppins', sans-serif;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Cabin', sans-serif;
     -webkit-tap-highlight-color: transparent;
     color: var(--text);
+    font-weight: bolder;
 }
 
 html {
@@ -66,6 +68,7 @@ hr {
     background-color: var(--text);
     letter-spacing: 0.2rem;
     border-radius: 0.4rem;
+    font-family: var(--ff-mono);
 }
 
 @media only screen and (max-width: 1100px) {

@@ -30,7 +30,7 @@ const App = () => {
                     <ColorPicker key={i} copied={copied} hex={hex} base={color.base} variants={color.variants} />
                 ))}
             </div>
-            {iscopied && <span className='copied'>Copied !</span>}
+            {iscopied && <span className='copied'>COPIED</span>}
         </>
     );
 };

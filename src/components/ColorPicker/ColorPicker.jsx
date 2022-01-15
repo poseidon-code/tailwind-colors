@@ -1,16 +1,16 @@
 import './ColorPicker.scss';
 import Clipboard from 'clipboard';
 
-const ColorPicker = (props) => {
-    const hex_rgb = (hex) => {
+const ColorPicker = props => {
+    const hex_rgb = hex => {
         const bigint = parseInt(hex, 16);
         const r = (bigint >> 16) & 255;
         const g = (bigint >> 8) & 255;
         const b = bigint & 255;
-        return r + ', ' + g + ', ' + b;
+        return `${r} ${g} ${b}`;
     };
 
-    const copy = (color) => {
+    const copy = color => {
         new Clipboard('.shade', {
             text: () => {
                 if (props.hex) return color;
@@ -33,10 +33,14 @@ const ColorPicker = (props) => {
                                 style={{
                                     backgroundColor: shade,
                                     transformOrigin:
-                                        j === 0 ? 'center left' : j === variant.shades.length - 1 ? 'center right' : 'center center',
+                                        j === 0
+                                            ? 'center left'
+                                            : j === variant.shades.length - 1
+                                            ? 'center right'
+                                            : 'center center',
                                 }}>
                                 <span style={{ color: j / 5 < 1 ? 'var(--text)' : 'var(--accent)' }}>
-                                    {props.hex ? shade : `rgb(${hex_rgb(shade.replace('#', ''))})`}
+                                    {props.hex ? shade : `RGB(${hex_rgb(shade.replace('#', ''))})`}
                                 </span>
                             </div>
                         ))}
