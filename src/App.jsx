@@ -9,12 +9,16 @@ const App = () => {
     const [iscopied, setIscopied] = useState(false);
     const toast = useRef();
 
-    const toggleColorCode = () => { setHex((p) => !p) };
+    const toggleColorCode = () => {
+        setHex(p => !p);
+    };
 
     const copied = () => {
         clearTimeout(toast.current);
         setIscopied(true);
-        toast.current = setTimeout(()=>{setIscopied(false)}, 3000);
+        toast.current = setTimeout(() => {
+            setIscopied(false);
+        }, 3000);
     };
 
     return (
