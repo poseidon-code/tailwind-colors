@@ -1,14 +1,24 @@
-# Tailwind Colors ![Status](https://img.shields.io/badge/STATUS-active-brightgreen)
+<div align="center">
 
+![tailwind-colors](./tailwind-colors.jpg)
+
+[`https://tailwindcolors.netlify.app`](https://tailwindcolors.netlify.app)
+
+### &bull;
+
+![Status](https://img.shields.io/badge/STATUS-active-brightgreen)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/013b7336-8058-4782-8a7f-7138e6d8d0f0/deploy-status)](https://app.netlify.com/sites/tailwindcolors/deploys)
-![Framework](https://img.shields.io/badge/FRAMEWORK-ReactJS-blue)
 
-Color pallette of **TailwindCSS v2.0** made with ReactJS. Copy color codes as HEX codes and RGB codes.\
+Color pallette of **TailwindCSS v3.0** made with ReactJS. Copy color codes as HEX codes and RGB codes.\
 Check out the live build here : [Tailwind Colors](https://tailwindcolors.netlify.app)
 
 If you are using `tailwindcss` package in your project then read about configuring colors from [here](https://tailwindcss.com/docs/customizing-colors#curating-colors).
 
-Install and use **[TailwindCSS v2.0](https://tailwindcss.com/docs)**
+Install and use **[TailwindCSS v3.0](https://tailwindcss.com/docs)**
+
+</div>
+
+---
 
 ## Scripts
 
@@ -26,7 +36,7 @@ Install and use **[TailwindCSS v2.0](https://tailwindcss.com/docs)**
 
 ## Acknowledgement
 
-[Tailwind Colors](https://tailwindcolors.netlify.app) is made with [ReactJS](https://reactjs.org) using **create-react-app** and deployed on [Netlify](https://www.netlify.com).\
+[Tailwind Colors](https://tailwindcolors.netlify.app) is made with [ReactJS](https://reactjs.org) and deployed on [Netlify](https://www.netlify.com).\
 All the icons are provided by [FontAwesome](https://www.fontawesome.com).\
 The brand logo is designed by myself.
 
